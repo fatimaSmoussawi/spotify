@@ -1,0 +1,28 @@
+.artistCard {
+    overflow: hidden;
+    box-shadow: 0 2px 20px #e1e5ee;
+    border-radius: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+}
+.artistCard__img {
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.artistCard__info h4 {
+    padding: 1rem 1rem 0 1rem;
+}
+.artistCard__info p {
+    padding: 0 1rem;
+    color: grey;
+    font-size: 12px;
+}
+.artistCard__info div {
+    display: flex;
+    padding: 0 1rem;
+}

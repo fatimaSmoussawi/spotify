@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+.artistAlbums-header {
+  padding: 2rem 10rem;
+}
+.artistAlbums-header h4 {
+  color: grey;
+}
+.artistAlbums-cards {
+  font-family: Oxygen, sans-serif;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 14rem));
+  gap: 2rem;
+  justify-content: center;
+}
