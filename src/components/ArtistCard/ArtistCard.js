@@ -12,7 +12,6 @@ export default function ArtistCard({ id, name, followers, image, popularity }) {
             <div className="artistCard__info">
                 <h4>{name}</h4>
                 <p>{followers}{" "}followers</p>
-                <div>{popularity}</div>
                 <ReactStars
                     count={5}
                     size={24}
